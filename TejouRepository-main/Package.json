@@ -1,0 +1,7 @@
+{
+    "name": "TejouRepository-main",
+    "version": "1.0",
+    "scripts": {
+        "start": "live-server"
+    }
+}
