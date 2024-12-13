@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice Kawaii</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="tejou">
+            <input type="text" id="display" disabled />
+        </div>
+        <div class="button-container">
+            <button onclick="appendNumber('1')" aria-label="1">1</button>
+            <button onclick="appendNumber('2')" aria-label="2">2</button>
+            <button onclick="appendNumber('3')" aria-label="3">3</button>
+            <button onclick="appendNumber('4')" aria-label="4">4</button>
+            <button onclick="appendNumber('5')" aria-label="5">5</button>
+            <button onclick="appendNumber('6')" aria-label="6">6</button>
+            <button onclick="appendNumber('7')" aria-label="7">7</button>
+            <button onclick="appendNumber('8')" aria-label="8">8</button>
+            <button onclick="appendNumber('9')" aria-label="9">9</button>
+            <button onclick="appendNumber('0')" aria-label="0">0</button>
+            <button onclick="setOperation('-')">-</button>
+            <button onclick="setOperation('*')">*</button>
+            <button onclick="setOperation('+')">+</button>
+            <button onclick="setOperation('/')">/</button>
+            <button onclick="clearDisplay()" aria-label="Clear">C</button>
+            <button onclick="setOperation('factoriel')" aria-label="Factorial">!</button>
+            <button onclick="setOperation('puissance')" aria-label="Power">^</button>
+            <button onclick="setOperation('modulo')" aria-label="Modulo">Mod</button>
+            <button onclick="setOperation('exponentiel')" aria-label="Exponential">e</button>
+            <button onclick="setOperation('sinus')" aria-label="Sine">Sin</button>
+            <button onclick="setOperation('cosinus')" aria-label="Cosine">Cos</button>
+            <button onclick="setOperation('tangente')" aria-label="Tangent">Tan</button>
+            <button onclick="setOperation('racine')" aria-label="Square Root">sqrt</button>
+            <button onclick="setOperation('conversionB')" aria-label="Binary">Bin</button>
+            <button onclick="setOperation('conversionH')" aria-label="Hexadecimal">Hex</button>
+            <button onclick="setOperation('conversionD')" aria-label="Decimal">Dec</button>
+            <button onclick="showTime()" aria-label="Show Time">Time</button>
+            <button onclick="calculateResult()" aria-label="Calculate">=</button>
+            <button><a href="index.html">nm</a></button>
+        </div>
+    </div>
+    <script src="ts-built/script1.js"></script>
+</body>
+</html>
+ 
